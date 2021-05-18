@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link href="/static/css/user_profile1.css"  rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="background-color: #3438381a;">
+{% if request.user.profile.first_name == None %}
+    <p class="predpokaz"> У вас пока нет профиля</p>
+    <div class="col-md-2" style="margin-left: 632px;">
+        <a href="{% url 'update'%}" class="btnRegister" role="button" aria-disabled="true">Создать сейчас!</a>
+    </div>
+{% else %}
+
+ <img src="/media/logo1.png"  style="    height: 81px;     margin-top: -12px;
+   float: right;" alt=""/>
+
+    <div class="container emp-profile" >
+     <div class="wrap">
+    <p class="profi"><b>Профиль</b></p>
+<p class="proile-rating">Дата регистрации : {{ request.user.date_joined}}</p>
+
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                    {% if messages %}
+            {% for message in messages %}
+                <div {% if message.tags == 'success' %} class="alert alert-success"
+                            {% elif message.tags == 'error' %}
+                                                        class="alert alert-danger"
+                            {% endif %} role="alert">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
+                <div class="row">
+{#                    <div class="col-md-4">#}
+{#                        <div class="profile-img">#}
+{#                            <img src="{{ request.user.profile.profile_picture.url }}" alt="profile picture"/>#}
+{#                        </div>#}
+{#                    </div>#}
+
+                    <div class="col-md-6">
+                        <div class="profile-head">
+                            <h6>
+                                <p>{{request.user.profile.last_name}} {{request.user.profile.first_name}} {{request.user.profile.otchestvo}}</p>
+                            </h6>
+                            <h6>
+                                {% if request.user.profile.sex == False %}
+                                    <p>Женщина</p>
+                                {% else %}
+                                    <p>Мужчина</p>
+                                {% endif %}
+
+                                <p>{{request.user.profile.family}}</p>
+                            </h6>
+                                <p class="prole-rating">Дата рождения : <span>{{ request.user.profile.birth_date}}</span></p>
+
+                        </div>
+                    </div>
+                  <div class="col-md-4">
+                        <div class="profile-work">
+                            <p>Контакты</p>
+                            <a href="">Email: {{ request.user.email }}</a><br/>
+                            <a href="">Моб. тел.: {{ request.user.profile.mobile_phone }}</a>
+                            <p>Работа</p>
+                            <a href="">{{ request.user.profile.position }} в кампании {{ request.user.profile.job }}</a><br/>
+                            <br/>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="{% url 'update'%}" class="btnRegister" role="button" aria-disabled="true">Редактировать</a><br>
+
+                        <a href="{% url 'delete'%}" class="btnRegister2" role="button" aria-disabled="true">Удалить аккаунт</a>
+                     <a href="{% url 'account_logout'%}" class="btnRegister3" role="button" aria-disabled="true">Выход</a>
+                    </div>
+                </div>
+                <div class="row1">
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Личная информация</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#account" role="tab" aria-controls="profile" aria-selected="false">Личный счёт</a>
+                                </li><li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#deposit" role="tab" aria-controls="profile" aria-selected="false">Вклады</a>
+                                </li>
+                            </ul>
+                    <div class="col-md-8">
+                        <div class="tab-content profile-tab" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Имя пользователя</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>{{ request.user.username }}</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Город</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>{{request.user.profile.city_projivaniya}}</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Адрес</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>{{request.user.profile.address_projivaniya}}</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Паспортные данные</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>{{ request.user.profile.seria_pasporta }}{{ request.user.profile.passport_number }}</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Гражданство</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>{{ request.user.profile.citizenship }}</p>
+                                            </div>
+                                        </div>
+                            </div>
+                            <div class="tab-pane fade" id="account" role="tabpanel" aria-labelledby="profile-tab">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Личный счёт</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>{{ request.user.profile.account.current_balance }} руб.</p>
+                                            </div>
+                                        </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a href="{% url 'account'%}" class="btnRegister4">Внести сумму</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="deposit" role="tabpanel" aria-labelledby="profile-tab">
+                                {% if request.user.profile.deposits.deposit_value == 0 %}
+                                    <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Похоже у вас нет вклада</label>
+                                            </div>
+                                        </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <a href="{% url 'deposit_form'%}" class="btnRegister4">Открыть вклад</a>
+                                        </div>
+                                    </div>
+                                {% else %}
+                                    <div class="row2">
+                                    <div class="col-md-6" style="float: left;">
+                                     <label>Сумма вклада</label>
+                                    </div>
+
+                                    <div class="col-md-6" style="float: right;">
+                                     <p>{{ request.user.profile.deposits.deposit_value }} руб.</p>
+                                    </div>
+
+                                    <div class="col-md-6"style="float: left;    margin-top: 9px;">
+                                        <label>Тип вклада</label>
+                                    </div>
+
+                                    <div class="col-md-6" style="float: right;">
+                                        <p>{{ request.user.profile.deposits.deposit_type }} руб.</p>
+                                    </div>
+
+                                        <div class="col-md-6" style="float: left;    margin-top: 9px;
+">
+                                            <label>Доход</label>
+                                        </div>
+
+                                        <div class="col-md-6" style="float: right;">
+                                        <p>{{ request.user.profile.deposits.temporary_deposit_income }} руб.</p>
+                                    </div>
+
+                                        <div class="col-md-6" style="float: left;    margin-top: 9px;
+">
+                                        <label>Налог</label>
+                                    </div>
+
+                                    <div class="col-md-6" style="float: right;">
+                                        <p>{{ request.user.profile.deposits.tax_rate }} руб.</p>
+                                    </div>
+
+                                    <div class="col-md-6" style="float: left;    margin-top: 9px;
+">
+                                        <label>Сумма в конце срока</label>
+                                    </div>
+
+                                    <div class="col-md-6" style="float: right;">
+                                        <p>{{ request.user.profile.deposits.temporary_total_income }} руб.</p>
+                                    </div>
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+    </div>
+        </div>
+{% endif %}
+</body>
+</html>

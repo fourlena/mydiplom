@@ -1,0 +1,210 @@
+
+.wrap{
+background-color: white;
+        height: 567px;
+    width: 754px;
+    margin-left: 50px;
+
+}
+body{
+      background-color: #3438381a;
+}
+
+.container{
+      margin-top: 98px;
+}
+
+ul{
+    list-style: none;
+    padding-top: 30px;
+}
+li p{
+padding-top: 9px;
+    font-size: 31px;
+    text-align: center;
+}
+p{
+font-size: 35pt;
+    font-weight: bold;
+    text-align: center;
+}
+.btnRegister{
+       font-size: 32px;
+    font-weight: bold;
+    padding: 11px 52px;
+    margin-top: 62px;
+    margin-left: 59px;
+    display: inline-block;
+  color: white;
+  text-decoration: none;
+
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+}
+.btnRegister:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+.btnRegister:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+
+
+/*кнопка*/
+a.button24 {
+  padding: 7px 52px;
+         margin-top: 62px;
+    margin-left: 68px;
+    display: inline-block;
+  color: white;
+  text-decoration: none;
+
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+}
+a.button24:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+a.button24:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+
+a.button25 {
+      padding: 0px 48px;
+      margin-left: 111px;
+
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+}
+a.button25:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+a.button25:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+
+.col-md-6{
+margin-left: 57px;
+}
+
+
+
+
+
+
+
+body {
+ background-color: #3438381a
+}
+
+
+
+
+
+
+.register{
+    margin-top: 3%;
+    padding: 3%;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left input{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+.register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+.register .register-form{
+    padding: 10%;
+    margin-top: 10%;
+}
+
+/*.btnRegister{*/
+/*    float: right;*/
+/*    margin-top: 10%;*/
+/*    border: none;*/
+/*    border-radius: 1.5rem;*/
+/*    padding: 2%;*/
+/*    background: #0062cc;*/
+/*    color: #fff;*/
+/*    font-weight: 600;*/
+/*    width: 50%;*/
+/*    cursor: pointer;*/
+/*}*/
+.register .nav-tabs{
+    margin-top: 3%;
+    border: none;
+    background: #0062cc;
+    border-radius: 1.5rem;
+    width: 28%;
+    float: right;
+}
+.register .nav-tabs .nav-link{
+    padding: 2%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.register .nav-tabs .nav-link:hover{
+    border: none;
+}
+.register .nav-tabs .nav-link.active{
+    width: 100px;
+    color: #0062cc;
+    border: 2px solid #0062cc;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.register-heading{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+}
+
+.image-container img{
+    width: 100%;
+    height: 50%;
+}

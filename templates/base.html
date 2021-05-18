@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+       <link rel="stylesheet" type="text/css" href="/static/css/basic.css">
+      <title>{% block head_title %}{% endblock %}</title>
+    {% block extra_head %}
+    {% endblock %}
+  </head>
+  <body>
+    {% block body %}
+
+    {% if messages %}
+    <div>
+      <strong>Сообщение:</strong>
+      <ul>
+        {% for message in messages %}
+        <li>{{message}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+        <img src="/media/logo1.png"  style="    height: 109px;
+    float: right;
+    margin-top: -114px;" alt=""/>
+<div class="wrap">
+    <div class="container">
+        <p>Вход</p>
+
+
+
+
+      <ul>
+        {% if user.is_authenticated %}
+        <li style="  float: left; margin-top: -61px;"><a href="{% url 'account_logout' %}" class="button24" >
+            <p>Выход</p></a></li>
+            <li style="float: left;"><a href="{% url 'profile' %}" class="button25">
+                <p>Профиль пользователя</p>{{ request.user.username }}</a> </li>
+
+        {% else %}
+        <li style="    float: left; margin-top: -61px;"><a href="{% url 'account_login' %}" class="button24" >
+            <p>Войти</p></a></li>
+        <li style="float: left;"><a href="{% url 'account_signup' %}" class="button25">
+            <p> Регистрация</p></a></li>
+        {% endif %}
+      </ul>
+    </div>
+       </div>
+    {% block content %}
+    {% endblock %}
+    {% endblock %}
+    {% block extra_body %}
+    {% endblock %}
+  </body>
+</html>

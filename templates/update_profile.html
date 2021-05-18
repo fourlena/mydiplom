@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+    <meta charset="UTF-8">
+    <link href="/static/css/user_change.css"  rel="stylesheet" type="text/css">
+    <title>Title</title>
+</head>
+<body>
+<img src="/media/logo1.png"  style="    height: 81px;     margin-top: -55px;
+   float: right;" alt=""/>
+<p><b>Изменить профиль</b></p>
+<form method="post" enctype="multipart/form-data">{% csrf_token%}
+        <table border="1">
+            {{ form.as_table }}
+        </table>
+        <button type="submit" class="btnRegister4">Отправить</button>
+    </form>
+</body>
+</html>

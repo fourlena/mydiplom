@@ -1,0 +1,52 @@
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="/static/css/registration.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <form class="login" method="POST" action="{% url 'account_login' %}">
+        {% csrf_token %}
+    <!------ Include the above in your HEAD tag ---------->
+     <img src="/media/logo1.png"  style="    height: 109px;
+    float: right;
+    margin-top: -114px;" alt=""/>
+<div class="wrap">
+    <div class="container">
+        <p>Вход</p>
+<div class="row register-form">
+      <div class="col-md-6">
+       <div class="form-group">
+      {{ form| crispy }}
+       </div>
+
+
+         </div>
+         </div>
+
+
+
+      <ul>
+        {% if user.is_authenticated %}
+        <li style="  float: left; margin-top: -61px;"><a href="{% url 'account_logout' %}" class="button24" >
+            <p>Выход</p></a></li>
+            <li style="float: left;"><a href="{% url 'profile' %}" class="button25">
+                <p>Профиль пользователя</p>{{ request.user.username }}</a> </li>
+
+        {% else %}
+        <li style="    float: left; margin-top: -61px;">
+             <input type="submit" class="btnRegister"  value="Вход"/>
+           </li>
+        <li style="float: left;"><a href="{% url 'account_signup' %}" class="button25">
+            <p> Регистрация</p></a></li>
+        {% endif %}
+      </ul>
+    </div>
+       </div>
+
+    </form>
+</body>
+</html>

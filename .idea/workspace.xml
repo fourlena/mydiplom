@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:E_branch" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="44d71a1a-eea2-49a2-ac86-eaa40d50ef7f" name="Default Changelist" comment="profile fix" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="E_branch" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="onto" value="d757ece2ada2445a1ef5c6ae87c55f00ba4605f2" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/PTaHHHa/Django_Coursework" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZG8kZjBXN0ZCbrzyscgxJbsGPN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\IT HYPE\PycharmProjects\coursework\media" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sorok\PycharmProjects\Django_Coursework\media\profile_pictures" />
+      <recent name="C:\Users\sorok\PycharmProjects\Django_Coursework\templates" />
+      <recent name="C:\Users\IT HYPE\PycharmProjects\coursework\static\css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django server.coursework">
+    <configuration name="Test: Bank" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="coursework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="Bank" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="coursework" type="Python.DjangoServer" factoryName="Django server">
+      <module name="coursework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="coursework.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Lena\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: Bank" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44d71a1a-eea2-49a2-ac86-eaa40d50ef7f" name="Default Changelist" comment="" />
+      <created>1584454213735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584454213735</updated>
+      <workItem from="1584454333225" duration="2599000" />
+      <workItem from="1585303096197" duration="444000" />
+      <workItem from="1585599920169" duration="2361000" />
+      <workItem from="1585602552919" duration="1762000" />
+      <workItem from="1585678373895" duration="108000" />
+      <workItem from="1585831947187" duration="1552000" />
+      <workItem from="1586859024236" duration="731000" />
+      <workItem from="1586862309542" duration="1291000" />
+      <workItem from="1586863622435" duration="2154000" />
+      <workItem from="1586865981801" duration="7391000" />
+      <workItem from="1586874733813" duration="434000" />
+      <workItem from="1586875187261" duration="3991000" />
+      <workItem from="1586879683749" duration="343000" />
+      <workItem from="1586949868559" duration="3631000" />
+      <workItem from="1586957169157" duration="17173000" />
+      <workItem from="1586977184200" duration="232000" />
+      <workItem from="1587040818465" duration="1477000" />
+      <workItem from="1587049648024" duration="7818000" />
+      <workItem from="1587117919240" duration="2719000" />
+      <workItem from="1587219914182" duration="548000" />
+      <workItem from="1587220808854" duration="529000" />
+      <workItem from="1587221679873" duration="9743000" />
+      <workItem from="1587374681313" duration="1323000" />
+      <workItem from="1587377196782" duration="42000" />
+      <workItem from="1587389734767" duration="10226000" />
+      <workItem from="1587400364219" duration="1942000" />
+      <workItem from="1587456202392" duration="1421000" />
+      <workItem from="1587459136496" duration="977000" />
+      <workItem from="1587460130072" duration="2370000" />
+      <workItem from="1587462522662" duration="1266000" />
+      <workItem from="1587463817000" duration="12314000" />
+      <workItem from="1587657961749" duration="6591000" />
+      <workItem from="1588234792568" duration="769000" />
+      <workItem from="1588235617226" duration="1316000" />
+      <workItem from="1588240818857" duration="4555000" />
+      <workItem from="1588245396546" duration="8076000" />
+      <workItem from="1588253847825" duration="50000" />
+      <workItem from="1588254517220" duration="2558000" />
+      <workItem from="1588257148610" duration="18424000" />
+      <workItem from="1588277965316" duration="96000" />
+      <workItem from="1588278084226" duration="191000" />
+      <workItem from="1588278289451" duration="872000" />
+      <workItem from="1588279734279" duration="3322000" />
+      <workItem from="1588284917481" duration="2457000" />
+      <workItem from="1588287921253" duration="7135000" />
+      <workItem from="1588861717211" duration="3742000" />
+      <workItem from="1588877217880" duration="1511000" />
+      <workItem from="1588878818480" duration="2515000" />
+      <workItem from="1588884143470" duration="22000" />
+      <workItem from="1588919592902" duration="349000" />
+      <workItem from="1589568226330" duration="618000" />
+      <workItem from="1621329902051" duration="71000" />
+      <workItem from="1621330119556" duration="683000" />
+    </task>
+    <task id="LOCAL-00001" summary="added funds to your personal account method was added and deposit model in models">
+      <created>1586878672496</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586878672496</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added funds to your personal account method was added and deposit model in models">
+      <created>1586879179030</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586879179030</updated>
+    </task>
+    <task id="LOCAL-00003" summary="minor fixes">
+      <created>1587060601272</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587060601272</updated>
+    </task>
+    <task id="LOCAL-00004" summary="minor fixes">
+      <created>1587060652308</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587060652308</updated>
+    </task>
+    <task id="LOCAL-00005" summary="minor fixes">
+      <created>1587132635319</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587132635319</updated>
+    </task>
+    <task id="LOCAL-00006" summary="sign in template edited">
+      <created>1587226813663</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587226813663</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ALLOWED_HOSTS added">
+      <created>1587230467497</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587230467497</updated>
+    </task>
+    <task id="LOCAL-00008" summary="profile fix">
+      <created>1587231490034</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587231490034</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added temporary deposit and total income, so they can stash income info before the deposit ends. They will be deleted then">
+      <created>1587395901069</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587395901069</updated>
+    </task>
+    <task id="LOCAL-00010" summary="deposit functionality was completed">
+      <created>1587402288982</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587402288982</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="E_branch" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="A_branch" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added funds to your personal account method was added and deposit model in models" />
+    <MESSAGE value="'make a deposit' functional + funds withdrawal from account added" />
+    <MESSAGE value="Revert &quot;'make a deposit' functional + funds withdrawal from account added&quot;&#10;&#10;This reverts commit 3977c8ec" />
+    <MESSAGE value="minor fixes" />
+    <MESSAGE value="sign in template edited" />
+    <MESSAGE value="ALLOWED_HOSTS added" />
+    <MESSAGE value="profile fix" />
+    <MESSAGE value="added temporary deposit and total income, so they can stash income info before the deposit ends. They will be deleted then" />
+    <MESSAGE value="deposit functionality was completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="deposit functionality was completed" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1621329979937">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1621329979937" />
+    <state width="1493" height="222" key="GridCell.Tab.0.bottom" timestamp="1621332657257">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="222" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621332657257" />
+    <state width="1493" height="222" key="GridCell.Tab.0.center" timestamp="1621332657256">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="222" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621332657256" />
+    <state width="1493" height="222" key="GridCell.Tab.0.left" timestamp="1621332657256">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="222" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621332657256" />
+    <state width="1493" height="222" key="GridCell.Tab.0.right" timestamp="1621332657256">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="222" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621332657256" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1621329898249">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1621329898249" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Django_Coursework$Test__Bank.coverage" NAME="Test: Bank Coverage Results" MODIFIED="1587658076145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>
